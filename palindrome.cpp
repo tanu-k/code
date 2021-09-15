@@ -18,5 +18,5 @@ int main(int argc, char const *argv[])
     if(rev == n1) printf("YES\n");
     else printf("NO\n");
 
-	return 0;
+    return 0;
 }
