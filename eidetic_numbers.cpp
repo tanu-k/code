@@ -59,8 +59,11 @@ int main(int argc, char const *argv[])
 			sm = sumDigits(m);
 			if(n == m + sm) {
 				md = numDigits(m);
+				
 				cout << n << " = " << m << " + (";
+				
 				printDigits(m, md);
+				
 				cout << ")" << endl;
 				flag = 1;
 				break;
