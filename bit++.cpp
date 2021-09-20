@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 
 	cin >> n;
 	
-	for(i = 1; i < = n; i++) {
+	for(i = 1; i <= n; i++) {
 		
 		cin >> s;
 		
